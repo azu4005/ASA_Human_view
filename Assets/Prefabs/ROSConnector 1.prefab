@@ -1,0 +1,328 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7244742476628475128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5363401987065867333}
+  - component: {fileID: 8662247394821447597}
+  - component: {fileID: 1481553757131089988}
+  - component: {fileID: 1481553757131089984}
+  - component: {fileID: 1481553757131090008}
+  - component: {fileID: 1481553757131090011}
+  - component: {fileID: 1481553757131090010}
+  m_Layer: 0
+  m_Name: ROSConnector 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &5363401987065867333
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8662247394821447597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff98778ae051cfd40a6e4effdf851ebd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SecondsTimeout: 10
+  Serializer: 1
+  protocol: 0
+  RosBridgeServerUrl: ws://10.40.0.163:9090
+--- !u!114 &1481553757131089988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f18525da26be844f88c9f1bec58cae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /shigure/people_detection
+  TimeStep: 0
+  bodyPartInfos:
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  - part_name: 
+    x: 0
+    y: 0
+    z: 0
+    score: 0
+    color: {r: 0, g: 0, b: 0, a: 0}
+  unityPoseList:
+    nose: {fileID: 0}
+    neck: {fileID: 0}
+    right_shoulder: {fileID: 0}
+    right_elbow: {fileID: 0}
+    right_wrist: {fileID: 0}
+    left_shoulder: {fileID: 0}
+    left_elbow: {fileID: 0}
+    left_wrist: {fileID: 0}
+    mid_hip: {fileID: 0}
+    right_hip: {fileID: 0}
+    right_knee: {fileID: 0}
+    right_ankle: {fileID: 0}
+    left_hip: {fileID: 0}
+    left_knee: {fileID: 0}
+    left_ankle: {fileID: 0}
+    right_eye: {fileID: 0}
+    left_eye: {fileID: 0}
+    right_ear: {fileID: 0}
+    left_ear: {fileID: 0}
+    left_big_toe: {fileID: 0}
+    left_small_toe: {fileID: 0}
+    left_heel: {fileID: 0}
+    right_big_toe: {fileID: 0}
+    right_small_toe: {fileID: 0}
+    right_heel: {fileID: 0}
+    noseTOleft_eye: {fileID: 0}
+    noseTOright_eye: {fileID: 0}
+    left_eyeTOleft_ear: {fileID: 0}
+    right_eyeTOright_ear: {fileID: 0}
+    noseTOneck: {fileID: 0}
+    neckTOmid_hip: {fileID: 0}
+    neckTOleft_shoulder: {fileID: 0}
+    neckTOright_shoulder: {fileID: 0}
+    left_shoulderTOleft_elbow: {fileID: 0}
+    right_shoulderTOright_elbow: {fileID: 0}
+    left_elbowTOleft_wrist: {fileID: 0}
+    right_elbowTOright_wrist: {fileID: 0}
+    mid_hipTOleft_hip: {fileID: 0}
+    mid_hipTOright_hip: {fileID: 0}
+    left_hipTOleft_knee: {fileID: 0}
+    right_hipTOright_knee: {fileID: 0}
+    left_kneeTOleft_ankle: {fileID: 0}
+    right_kneeTOright_ankle: {fileID: 0}
+    left_ankleTOleft_big_toe: {fileID: 0}
+    left_ankleTOleft_heel: {fileID: 0}
+    right_ankleTOright_big_toe: {fileID: 0}
+    right_ankleTOright_heel: {fileID: 0}
+    left_big_toeTOleft_small_toe: {fileID: 0}
+    right_big_toeTOright_small_toe: {fileID: 0}
+--- !u!114 &1481553757131089984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fa8ed750d0d6d4596e151e8ce7eb22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /shigure/contacted
+  TimeStep: 0
+--- !u!114 &1481553757131090008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5402a286e863844cad45a1aa756f430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  camera1: {fileID: 0}
+--- !u!114 &1481553757131090011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10dab8c16d3f2fc47b85374c3179b78c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /tf_camera
+  RealsenceTransform: {fileID: 0}
+  FrameId: World
+  Child_FrameId: Realsense_1
+--- !u!114 &1481553757131090010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7244742476628475128}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1329e9cfc23c5d41b8a74e968186f63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Topic: /tf_holo
+  FrameId: World
+  Child_FrameId: Hololens2_1

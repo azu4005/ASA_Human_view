@@ -1,0 +1,31 @@
+動作確認用
+1,zipを解凍もしくはgitからclone
+2,Unity2020で開く(Unity2020.3.11f1)
+3,File→Build Setting→Buildの順にクリック
+4,ファイル指定を要求されるので、適当に空ファイルを用意してそこにbuild
+5,VisualStudio2019で.slnファイルを開く
+6,Release ARM64 リモートコンピュータに設定変更
+7,Hololens2(3号機)側で設定→ネットワークとインターネット→Wi-Fi→CVTimeCapsule右上のiマークからIPv4アドレスを調べる。
+	（↑Microsoftアカウントの設定が必要なのでAR班の人に聞いてください）
+8,VS上でデバッグ→一番下のデバッグプロパティ→デバッグ→コンピュータ名に7をコピー（10.40.0.175）
+9.リモートコンピュータ横の再生マークを押す。
+(9',配置後自動でデバッグモード(?)で実行されるが重いだけなので、配置が終わり、再生ボタンが停止ボタンに代わり次第停止してHololens2側の操作で実行しなおすことをとても推奨）
+10,Unity画面上に戻る。ParentAnchorオブジェクト→AnchorModuleObjectの235行目のコメントアウトを外しその下の行をコメントアウトし、保存(Ctrl+S)
+11,3からHololens2（1号機）でやり直す。(IPv4 = 10.40.0.173)
+12,それぞれのHololens2で実行し、Start Azure Session→Find　Azure　Anchorを押す。
+13,教授の2個左の席に水色の立方体が表示されて相手の頭上にアイコンが出ていれば成功
+
+現在、既存コードでできていた、AnchorIDのアップロードが出来なくなっており、アンカーIDのデバイス間での共有が出来なくなっています。
+新しいチュートリアルでは,photon経由でAnchorIDの共有を行っているようなので、そっち使えば、動作確認の10以降の手順要らないはずです。(未確認)
+
+自分で開発したい場合↓
+
+ASAアカウントとspatial anchorリソースの用意
+参考サイトhttps://docs.microsoft.com/ja-jp/azure/spatial-anchors/quickstarts/get-started-unity-hololens?tabs=azure-portal
+ParentAnchorオブジェクトInspectorのSpatial anchor manager内のCredentialsを自分のアカウントの物に更新
+
+（俺のプログラムの物のまま使う場合）
+以下をそれぞれのHololens2で実行
+一旦スクリプト置いておいて12の画面から、start azure session →　Create Azure Anchor 
+
+デバッグwindowに表示されているCurrentAnchorIDで10のスクリプトを更新する。
