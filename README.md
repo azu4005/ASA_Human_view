@@ -1,6 +1,6 @@
 # ASA_Human_View
 
-ROSから受け取った人物行動情報をAzure Spatial Anchorを用いて複数のHoloLens2ユーザーに提示する
+ROSから受け取った人物行動情報や物体情報をAzure Spatial Anchorを用いて複数のHoloLens2ユーザーに提示するサービスインターフェース
 
 ## Enviroments
 
